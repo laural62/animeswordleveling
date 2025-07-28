@@ -1,6 +1,8 @@
-export default function Login () {
+export default function Login() {
 
     return (
-        <h1>Bienvenue</h1>
+        <div className="bg-black text-white">
+            <h2>Se connecter !</h2>
+        </div>
     );
 }

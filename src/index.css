@@ -8,4 +8,5 @@ body, header, footer{
 }
 .bg-anime{
     background-image: url(assets/bg-animeswordleveling.png);
+    background-repeat: no-repeat;
 }
