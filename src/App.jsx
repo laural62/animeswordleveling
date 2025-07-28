@@ -1,4 +1,5 @@
 
+import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { useState } from "react";
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="h-screen">
       <Header />
+      <Outlet />
       {/*section bienvenue */}
       <section className="text-white flex justify-center items-center bg-anime h-screen flex-column text-center">
         <div>
