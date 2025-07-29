@@ -11,14 +11,12 @@ export default function Inscription() {
                         Pseudo
                     </label>
                     <input
-                        {...Inscription("username")}
+                        
                         type="text"
                         id="username"
                         className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
-                    {errors.username && (
-                        <p className="text-red-500">{errors.username.message}</p>
-                    )}
+                    
                 </div>
 
                 <div className="flex flex-col mb-2">
@@ -27,14 +25,12 @@ export default function Inscription() {
                     </label>
 
                     <input
-                        {...Inscription("email")}
+                        
                         type="email"
                         id="email"
                         className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
-                    {errors.email && (
-                        <p className="text-red-500">{errors.email.message}</p>
-                    )}
+                    
                 </div>
 
                 <div className="flex flex-col mb-2">
@@ -43,14 +39,12 @@ export default function Inscription() {
                     </label>
 
                     <input
-                        {...Inscription("password")}
+                        
                         type="password"
                         id="password"
                         className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
-                    {errors.password && (
-                        <p className="text-red-500">{errors.password.message}</p>
-                    )}
+                    
                 </div>
 
                 <div className="flex flex-col mb-2">
@@ -58,27 +52,24 @@ export default function Inscription() {
                         Confirmation du mot de passe
                     </label>
                     <input
-                        {...Inscription("confirmPassword")}
+                        
                         type="password"
                         id="confirmPassword"
                         className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
-                    {errors.confirmPassword && (
-                        <p className="text-red-500">{errors.confirmPassword.message}</p>
-                    )}
+                    
                 </div>
 
                 <div className="flex flex-col mb-2">
                     <label htmlFor="rgpd" className="mb-2">
                         <input
-                        {...Inscription("rgpd")}
+                        
                         type="checkbox"
                         className="mr-4"
                         id="rgpd"
                         />
                         En soumettant ce formulaire, j'accepte ...
                     </label>
-                    {errors.rgpd && <p className="text-red-500">{errors.rgpd.message}</p>}
                 </div>
 
                 <button className="bg-white text-black px-4 py-2 rounded hover:bg-blue-900 hover:text-white">

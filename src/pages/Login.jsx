@@ -1,4 +1,4 @@
-import Inscription from "./Inscription";
+
 
 
 
@@ -17,14 +17,12 @@ export default function Login() {
                             Email
                         </label>
                         <input
-                            {...Inscription("email")}
+                            
                             type="email"
                             id="email"
                             className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black"
                         />
-                        {errors.email && (
-                            <p className="text-red-500">{errors.email.message}</p>
-                        )}
+                        
                     </div>
 
                     <div className="flex flex-col mb-2">
@@ -33,14 +31,12 @@ export default function Login() {
                         </label>
 
                         <input
-                            {...Inscription("password")}
+                        
                             type="password"
                             id="password"
                             className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
-                        {errors.password && (
-                            <p className="text-red-500">{errors.password.message}</p>
-                        )}
+                        
                     </div>
                     
                     <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">

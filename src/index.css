@@ -10,3 +10,19 @@ body, header, footer{
     background-image: url(assets/bg-animeswordleveling.png);
     background-repeat: no-repeat;
 }
+.button-blue{
+    background-color:#194558;
+    color: white;
+    border-radius: 10px 0 10px 0;
+    border: solid 2px;
+    border-color: #e4e4e4;
+}
+.bg-pop{
+    color:#5b0e0e;
+}
+.bg-manga{
+    color:#63265f;
+}
+.bg-gaming{
+    color: #194558;
+}
