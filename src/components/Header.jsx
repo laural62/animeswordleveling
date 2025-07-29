@@ -4,7 +4,7 @@ export default function Header({ userConnected, toggleUser }) {
     console.log(userConnected);
     return (
         <header className="bg-black text-white flex justify-around items-center">
-            <NavLink to={"/home"}>
+            <NavLink to={"/"}>
                 <img src="src/assets/logo.png" alt="logo image" className="w-25 h-25" />
             </NavLink>
 
@@ -15,7 +15,7 @@ export default function Header({ userConnected, toggleUser }) {
                 </nav>
             ) : (
                 <nav className="flex space-x-6">
-                    <NavLink to={"/home"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Home</NavLink>
+                    <NavLink to={"/"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Home</NavLink>
                     <NavLink to={"/nouveau"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Nouveau !</NavLink>
                     <NavLink to={"/actu"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Actualites</NavLink>
                     <NavLink to={"/streamer"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Streamer</NavLink>
