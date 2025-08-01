@@ -1,7 +1,7 @@
 export default function Inscription() {
 
     return (
-        <div className="bg-black text-white">
+        <div className="bg-black text-white h-screen">
             <h2>S'inscrire !</h2>
 
             <form

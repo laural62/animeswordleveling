@@ -6,7 +6,7 @@ export default function Login() {
     
 
     return (
-        <div className="bg-black text-white">
+        <div className="bg-black text-white h-screen">
             <h2>Se connecter !</h2>
 
             <div className="w-full max-w-md p-6 bg-white shadow-xl rounded">
