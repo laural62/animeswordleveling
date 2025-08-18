@@ -53,11 +53,7 @@ export default function PasswordOublie() {
                 </button>
 
                 <div className="text-center">
-                    <NavLink to={"/"} className="button-blue px-3 py-2 hover:text-2xl hover:transition hover:duration-200">Mot de passe oubliée ?</NavLink>
-                </div>
-
-                <div className="text-center">
-                    <NavLink to={"/inscription.jsx"} className="button-blue px-3 py-2 hover:text-2xl hover:transition hover:duration-200">S'inscrire !</NavLink>
+                    <NavLink to={"/Home"} className="button-blue px-3 py-2 hover:text-2xl hover:transition hover:duration-200">Retour</NavLink>
                 </div>
 
             </form>
