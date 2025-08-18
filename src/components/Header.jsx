@@ -20,14 +20,14 @@ export default function Header({ userConnected, toggleUser }) {
                     <NavLink to={"/actu"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Actualites</NavLink>
                     <NavLink to={"/streamer"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Streamer</NavLink>
                     <NavLink to={"/apropos"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">A Propos</NavLink>
-                    <NavLink to={"/contact"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Contact</NavLink>
+                    <NavLink to={"/FormulaireContact"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Contact</NavLink>
                     <NavLink
-                        to={"/login"}
+                        to={"/Login"}
                         className="text-white font-semibold hover:text-gray-300 hover:text-2xl">
                         Connexion
                     </NavLink>
                     <NavLink
-                        to={"/inscription"}
+                        to={"/Inscription"}
                         className="text-white font-semibold hover:text-gray-300 hover:text-2xl">
                         Inscription
                     </NavLink>

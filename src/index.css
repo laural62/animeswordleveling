@@ -16,6 +16,7 @@ body, header, footer{
     border-radius: 10px 0 10px 0;
     border: solid 2px;
     border-color: #e4e4e4;
+    transition: 0.50s;
 }
 .bg-pop{
     color:#5b0e0e;

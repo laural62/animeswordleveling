@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom"
 
-export default function FormulaireContact() {
+export default function PasswordOublie() {
     
-    return(
-        <div className="bg-black text-white h-screen">
-            <h2 className="text-center text-2xl font-bold">Nous contacter !</h2>
-            <h3>Pour nous contacter, remplissez ce formulaire ci dessous !</h3>
 
+    return (
+        <div className="bg-black text-white h-screen">
+            <h2 className="text-center text-2xl font-bold uppercase">Reinitialiser le Mot de Passe !</h2>
+                {/**FORMULAIRE POUR LES MOTS DE PASSE OUBLIER */}
             <form
             className="flex flex-col gap-4 mb-6 mx-auto max-w-[400px]">
                 <div className="flex flex-col mb-2">
@@ -37,33 +37,6 @@ export default function FormulaireContact() {
                 </div>
 
                 <div className="flex flex-col mb-2">
-                    <label htmlFor="password" className="mb-2">
-                        Mot de passe
-                    </label>
-
-                    <input
-                        
-                        type="password"
-                        id="password"
-                        className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    />
-                    
-                </div>
-
-                <div className="flex flex-col mb-2">
-                    <label htmlFor="confirmPassword" className="mb-2">
-                        Confirmation du mot de passe
-                    </label>
-                    <input
-                        
-                        type="password"
-                        id="confirmPassword"
-                        className="border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    />
-                    
-                </div>
-
-                <div className="flex flex-col mb-2">
                     <label htmlFor="rgpd" className="mb-2">
                         <input
                         
@@ -76,11 +49,15 @@ export default function FormulaireContact() {
                 </div>
 
                 <button className="bg-white text-black px-4 py-2 rounded hover:bg-blue-900 hover:text-white uppercase">
-                S'inscrire
+                Envoyer
                 </button>
 
                 <div className="text-center">
-                    <NavLink to={"/Home"} className="button-blue px-3 py-2 hover:text-2xl hover:transition hover:duration-200 ">Retour</NavLink>
+                    <NavLink to={"/"} className="button-blue px-3 py-2 hover:text-2xl hover:transition hover:duration-200">Mot de passe oubliée ?</NavLink>
+                </div>
+
+                <div className="text-center">
+                    <NavLink to={"/inscription.jsx"} className="button-blue px-3 py-2 hover:text-2xl hover:transition hover:duration-200">S'inscrire !</NavLink>
                 </div>
 
             </form>

@@ -9,6 +9,7 @@ import Apropos from "./components/Apropos";
 import Login from "./pages/Login";
 import Inscription from "./pages/Inscription";
 import Header from "./components/Header";
+import PasswordOublie from "./components/PasswordOublie";
 
 
 export const routerTest = createBrowserRouter([
@@ -27,6 +28,10 @@ export const routerTest = createBrowserRouter([
       {
         path: "/inscription",
         element: <Inscription />,
+      },
+      {
+        path: "/password",
+        element: <PasswordOublie />,
       },
       {
         path: "/header",

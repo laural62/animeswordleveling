@@ -96,21 +96,98 @@ export default function Home() {
         {/**section des coups de coeurs de nos streamers partenaires ! avec 4 image par streamer */}
         <section className="bg-black text-white h-screen">
           <div className="flex justify-center items-center flex-column">
-            <h2 className="text-2xl">Coups de coeur des streamers !</h2>
+            <h2 className="text-2xl font-extrabold p-3">Coups de coeur des streamers !</h2>
           </div>
 
+          {/**Coup de coeur du STREAMEUR PARTENAIRE */}
             <div className="flex justify-center items-center flex-column gap-3">
-              <div>
-                <h3>Alta & Bichon</h3>
-                <img src="src/assets/altabichon.jpg" className="w-50 h-auto" />
-                <p className="text-center w-50">Voici les coups de coeurs de notre couple de streamers :</p>
-              </div>
+              <div className="text-center flex justify-around items-center">
+                <div className="p-2 m-2 text-center">
+                  <h3 className="text-center font-bold uppercase">Alta & Bichon</h3>
+                  <h3 className="text-center m-2 p-1">Les coups de coeurs de notre Duo :</h3>
+                  <div className="flex items-center gap-2">
+                    <img src="src/assets/altabichon.jpg" className="w-50 h-auto text-center"/>
+                    <div className="text-center">
+                      <NavLink to={"/"} className="button-blue px-1 py-1 hover:text-2xl hover:transition hover:duration-200">En savoir +</NavLink>
+                    </div>
+                  </div>
+                </div>
 
-              <div>
-                <h3>JarlSpunk</h3>
-                <img src="src/assets/logoJarl.jpg" className="w-50 h-auto" />
-                <p className="text-center w-50">Voici le coups de coeur de JarlSpunk :</p>
+                  {/**Coup de coeur du streameur ALTAVIRAN */}
+                <div className="flex justify-around items-center">
+                  <div>
+                    <p>Jeux Vidéo !</p>
+                    <img src="src/assets/talesofshire.jpg" className="w-50 h-auto m-2" alt="image jeux video tales of shire" title="jeux video tales of shire"/>
+                  </div>
+                  {/**Coup de coeur MANGA */}
+                  <div>
+                    <h3 className="text-center text-1xl font-bold">Altaviran</h3>
+                    <p>Manga !</p>
+                    <img src="src/assets/defensedevil.jpg" className="h-30 m-2" alt="image manga defense devil" title="manga defense devil"/>
+                  </div>
+
+                  {/**Coup de coeur ANIME */}
+                  <div>
+                    <p>Animé !</p>
+                    <img src="src/assets/carnetdelapo.jpg" className="h-30 m-2" alt="image anime carnets de l'apoticaire" title="Animé Les carnets de l'apoticaire"/>
+                  </div>
+                </div>
+                
+
+                  {/**Coup de coeur du streameur BICHON */}
+                <div className="flex justify-around items-center">
+                  <div>
+                    <h3 className="text-center text-1xl font-bold">PapyBichon</h3>
+                    <p>Jeux Vidéo !</p>
+                    <img src="src/assets/ballxspit.jpg" className="w-50 h-auto m-2" alt="image jeux video ball x spit" title="jeux video ball x spit"/>
+                  </div>
+
+                  {/**Coup de coeur du MANGA */}
+                  <div>
+                    <p>Manga !</p>
+                    <img src="src/assets/manga-onepiece.jpg" className="h-30 m-2" alt="image manga one piece" title="manga one piece"/>
+                  </div>
+
+                  {/**Coup de coeur de l'ANIME */}
+                  <div>
+                    <p>Animé !</p>
+                    <img src="src/assets/onepiece.jpg" className="h-30 m-2" alt="image anime one piece" title="Animé one piece"/>
+                  </div> 
+                </div>
               </div>
+            </div>
+
+          {/**Coup de coeur du moment du streameur partenaire 2*/}
+            <div className="flex justify-center items-center flex-column gap-3">
+
+                {/**Coup de coeur du streameur JARLSPUNK */}
+                <div className="flex justify-around items-center">
+                  <div>
+                    <p>Jeux Vidéo !</p>
+                    <img src="src/assets/" className="w-50 h-auto m-2" alt="image jeux video" title="jeux video"/>
+                  </div>
+
+                  {/**Coup de coeur MANGA */}
+                  <div>
+                    <p>Manga !</p>
+                    <img src="src/assets/" className="h-30 m-2" alt="image manga" title="manga"/>
+                  </div>
+
+                  {/**Coup de coeur ANIME */}
+                  <div>
+                    <p>Animé !</p>
+                    <img src="src/assets/" className="h-30 m-2" alt="image anime" title="Animé"/>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-center text-1xl font-bold uppercase p-2 m-2">JarlSpunk</h3>
+                  <img src="src/assets/logoJarl.jpg" className="w-50 h-auto" />
+                  <p className="text-center w-50 p-1 m-2">Voici le coups de coeur de JarlSpunk :</p>
+                  <div className="text-center">
+                    <NavLink to={"/"} className="button-blue px-1 py-1 hover:text-2xl hover:transition hover:duration-200">En savoir +</NavLink>
+                  </div>
+                </div>
           </div>
         </section>
       </>
