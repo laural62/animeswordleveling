@@ -100,12 +100,13 @@ export default function Home() {
           </div>
 
           {/**Coup de coeur du STREAMEUR PARTENAIRE */}
-            <div className="flex justify-center items-center flex-column gap-3">
-              <div className="text-center flex justify-around items-center">
+            <div className="flex justify-center items-center flex-col gap-3">
+              <div className="text-center flex justify-around items-center flex-row">
                 <div className="p-2 m-2 text-center">
                   <h3 className="text-center font-bold uppercase">Alta & Bichon</h3>
                   <h3 className="text-center m-2 p-1">Les coups de coeurs de notre Duo :</h3>
-                  <div className="flex items-center gap-2">
+                {/**div contenant img + nav vers la page streamer */}
+                  <div className="flex items-center gap-3 flex-col"> 
                     <img src="src/assets/altabichon.jpg" className="w-50 h-auto text-center"/>
                     <div className="text-center">
                       <NavLink to={"/"} className="button-blue px-1 py-1 hover:text-2xl hover:transition hover:duration-200">En savoir +</NavLink>
@@ -113,46 +114,47 @@ export default function Home() {
                   </div>
                 </div>
 
+                <div>
                   {/**Coup de coeur du streameur ALTAVIRAN */}
-                <div className="flex justify-around items-center">
-                  <div>
-                    <p>Jeux Vidéo !</p>
-                    <img src="src/assets/talesofshire.jpg" className="w-50 h-auto m-2" alt="image jeux video tales of shire" title="jeux video tales of shire"/>
-                  </div>
-                  {/**Coup de coeur MANGA */}
-                  <div>
-                    <h3 className="text-center text-1xl font-bold">Altaviran</h3>
-                    <p>Manga !</p>
-                    <img src="src/assets/defensedevil.jpg" className="h-30 m-2" alt="image manga defense devil" title="manga defense devil"/>
-                  </div>
+                  <div className="flex justify-around items-center">
+                    <div>
+                      <h3 className="text-center text-1xl font-bold">Altaviran</h3>
+                      <p>Jeux Vidéo !</p>
+                      <img src="src/assets/talesofshire.jpg" className="w-50 h-auto m-2" alt="image jeux video tales of shire" title="jeux video tales of shire"/>
+                    </div>
+                    {/**Coup de coeur MANGA */}
+                    <div>
+                      <p>Manga !</p>
+                      <img src="src/assets/defensedevil.jpg" className="h-30 m-2" alt="image manga defense devil" title="manga defense devil"/>
+                    </div>
 
-                  {/**Coup de coeur ANIME */}
-                  <div>
-                    <p>Animé !</p>
-                    <img src="src/assets/carnetdelapo.jpg" className="h-30 m-2" alt="image anime carnets de l'apoticaire" title="Animé Les carnets de l'apoticaire"/>
+                    {/**Coup de coeur ANIME */}
+                    <div>
+                      <p>Animé !</p>
+                      <img src="src/assets/carnetdelapo.jpg" className="h-30 m-2" alt="image anime carnets de l'apoticaire" title="Animé Les carnets de l'apoticaire"/>
+                    </div>
                   </div>
-                </div>
-                
-
+        
                   {/**Coup de coeur du streameur BICHON */}
-                <div className="flex justify-around items-center">
-                  <div>
-                    <h3 className="text-center text-1xl font-bold">PapyBichon</h3>
-                    <p>Jeux Vidéo !</p>
-                    <img src="src/assets/ballxspit.jpg" className="w-50 h-auto m-2" alt="image jeux video ball x spit" title="jeux video ball x spit"/>
-                  </div>
+                  <div className="flex justify-around items-center">
+                    <div>
+                      <h3 className="text-center text-1xl font-bold">PapyBichon</h3>
+                      <p>Jeux Vidéo !</p>
+                      <img src="src/assets/ballxspit.jpg" className="w-50 h-auto m-2" alt="image jeux video ball x spit" title="jeux video ball x spit"/>
+                    </div>
 
-                  {/**Coup de coeur du MANGA */}
-                  <div>
-                    <p>Manga !</p>
-                    <img src="src/assets/manga-onepiece.jpg" className="h-30 m-2" alt="image manga one piece" title="manga one piece"/>
-                  </div>
+                    {/**Coup de coeur du MANGA */}
+                    <div>
+                      <p>Manga !</p>
+                      <img src="src/assets/manga-onepiece.jpg" className="h-30 m-2" alt="image manga one piece" title="manga one piece"/>
+                    </div>
 
-                  {/**Coup de coeur de l'ANIME */}
-                  <div>
-                    <p>Animé !</p>
-                    <img src="src/assets/onepiece.jpg" className="h-30 m-2" alt="image anime one piece" title="Animé one piece"/>
-                  </div> 
+                    {/**Coup de coeur de l'ANIME */}
+                    <div>
+                      <p>Animé !</p>
+                      <img src="src/assets/onepiece.jpg" className="h-30 m-2" alt="image anime one piece" title="Animé one piece"/>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -164,19 +166,19 @@ export default function Home() {
                 <div className="flex justify-around items-center">
                   <div>
                     <p>Jeux Vidéo !</p>
-                    <img src="src/assets/" className="w-50 h-auto m-2" alt="image jeux video" title="jeux video"/>
+                    <img src="src/assets/baldurs-gate-3.avif" className="w-50 h-auto m-2" alt="image jeux video" title="jeux video"/>
                   </div>
 
                   {/**Coup de coeur MANGA */}
                   <div>
                     <p>Manga !</p>
-                    <img src="src/assets/" className="h-30 m-2" alt="image manga" title="manga"/>
+                    <img src="src/assets/berserk-manga.webp" className="h-50 m-2" alt="image manga" title="manga"/>
                   </div>
 
                   {/**Coup de coeur ANIME */}
                   <div>
                     <p>Animé !</p>
-                    <img src="src/assets/" className="h-30 m-2" alt="image anime" title="Animé"/>
+                    <img src="src/assets/fullmetal-alchemist.webp" className="h-50 m-2" alt="image anime" title="Animé"/>
                   </div>
                 </div>
 

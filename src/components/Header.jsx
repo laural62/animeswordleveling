@@ -15,20 +15,20 @@ export default function Header({ userConnected, toggleUser }) {
                 </nav>
             ) : (
                 <nav className="flex space-x-6">
-                    <NavLink to={"/"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Home</NavLink>
-                    <NavLink to={"/nouveau"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Nouveau !</NavLink>
-                    <NavLink to={"/actu"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Actualites</NavLink>
-                    <NavLink to={"/streamer"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Streamer</NavLink>
-                    <NavLink to={"/apropos"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">A Propos</NavLink>
-                    <NavLink to={"/contact"} className="text-white font-semibold hover:text-gray-300 hover:text-2xl">Contact</NavLink>
+                    <NavLink to={"/"} className="text-white font-semibold hover:text-blue-400 px-1 py-1 hover:text-2xl hover:transition hover:duration-200">Home</NavLink>
+                    <NavLink to={"/nouveau"} className="text-white font-semibold hover:text-blue-400 px-1 py-1 hover:text-2xl hover:transition hover:duration-200">Nouveau !</NavLink>
+                    <NavLink to={"/actu"} className="text-white font-semibold hover:text-blue-400 px-1 py-1 hover:text-2xl hover:transition hover:duration-200">Actualites</NavLink>
+                    <NavLink to={"/streamer"} className="text-white font-semibold hover:text-blue-400 px-1 py-1 hover:text-2xl hover:transition hover:duration-200">Streamer</NavLink>
+                    <NavLink to={"/apropos"} className="text-white font-semibold hover:text-blue-400 px-1 py-1 hover:text-2xl hover:transition hover:duration-200">A Propos</NavLink>
+                    <NavLink to={"/contact"} className="text-white font-semibold hover:text-blue-400 px-1 py-1 hover:text-2xl hover:transition hover:duration-200">Contact</NavLink>
                     <NavLink
                         to={"/Login"}
-                        className="text-white font-semibold hover:text-gray-300 hover:text-2xl">
+                        className="text-white font-semibold hover:text-blue-400 px-1 py-1 hover:text-2xl hover:transition hover:duration-200">
                         Connexion
                     </NavLink>
                     <NavLink
                         to={"/Inscription"}
-                        className="text-white font-semibold hover:text-gray-300 hover:text-2xl">
+                        className="text-white font-semibold hover:text-blue-400 px-1 py-1 hover:text-2xl hover:transition hover:duration-200">
                         Inscription
                     </NavLink>
                 </nav>
