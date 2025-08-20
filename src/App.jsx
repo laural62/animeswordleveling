@@ -7,13 +7,17 @@ import { useState } from "react";
 function App() {
   const [user, setUser] = useState(false);
   //console.log(user);
-  const toggleUser = () => {
-    setUser(!user);
-  }
+  const login = () => {
+    setUser(true);
+  };
+
+  const logout = () => {
+    setUser(false);
+  };
 
   return (
     <div className="h-screen">
-      <Header userConnected={user} />
+      <Header userConnected={user} login={login} logout={logout} />
       
       <Outlet />
       

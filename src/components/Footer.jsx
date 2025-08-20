@@ -1,7 +1,7 @@
 export default function Footer({userConnected, toggleUser}) {
     console.log(userConnected);
     return (
-        <footer class="bg-black text-white flex justify-around items-center">
+        <footer class="bg-black text-white flex justify-around items-center space-x-5">
                 <div>
                     <ul className="list-style-none">
                         <a href="#" className="hover:text-2xl"><li>Accueil</li></a>

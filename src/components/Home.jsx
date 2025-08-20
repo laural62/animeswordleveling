@@ -48,7 +48,7 @@ export default function Home() {
               <img src="src/assets/img_twitch.png" alt="image streamer" title="section streamers" className="w-50 h-auto"/>
               <h3 className="text-2xl text-center">Nos Streamers Partenaires !</h3>
                 <div>
-                  <NavLink to={"/"} className="button-blue px-1 py-1 hover:text-2xl">Découvrir</NavLink>
+                  <NavLink to={"/streamer"} className="button-blue px-1 py-1 hover:text-2xl">Découvrir</NavLink>
                 </div>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default function Home() {
                   <div className="flex items-center gap-3 flex-col"> 
                     <img src="src/assets/altabichon.jpg" className="w-50 h-auto text-center"/>
                     <div className="text-center">
-                      <NavLink to={"/"} className="button-blue px-1 py-1 hover:text-2xl hover:transition hover:duration-200">En savoir +</NavLink>
+                      <NavLink to={"/streamer"} className="button-blue px-1 py-1 hover:text-2xl hover:transition hover:duration-200">En savoir +</NavLink>
                     </div>
                   </div>
                 </div>
@@ -187,7 +187,7 @@ export default function Home() {
                   <img src="src/assets/logoJarl.jpg" className="w-50 h-auto" />
                   <p className="text-center w-50 p-1 m-2">Voici le coups de coeur de JarlSpunk :</p>
                   <div className="text-center">
-                    <NavLink to={"/"} className="button-blue px-1 py-1 hover:text-2xl hover:transition hover:duration-200">En savoir +</NavLink>
+                    <NavLink to={"/streamer"} className="button-blue px-1 py-1 hover:text-2xl hover:transition hover:duration-200">En savoir +</NavLink>
                   </div>
                 </div>
           </div>

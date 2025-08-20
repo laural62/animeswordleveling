@@ -1,5 +1,5 @@
 export default function Apropos() {
     return(
-        <h2>Test apropos</h2>
+        <h2>A propos de Nous !</h2>
     );
 }

@@ -10,6 +10,7 @@ import Login from "./pages/Login";
 import Inscription from "./pages/Inscription";
 import Header from "./components/Header";
 import PasswordOublie from "./components/PasswordOublie";
+import Convention from "./components/Convention";
 
 
 export const routerTest = createBrowserRouter([
@@ -60,6 +61,10 @@ export const routerTest = createBrowserRouter([
       {
         path: "/apropos",
         element: <Apropos />,
+      },
+      {
+        path: "/convention",
+        element: <Convention />,
       },
     ],
   },

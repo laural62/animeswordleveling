@@ -1,5 +1,5 @@
 export default function Nouveau() {
     return(
-        <h2>Test new</h2>
+        <h2>Nouveauté du moment !</h2>
     );
 }
